@@ -21,8 +21,8 @@
         `remark` VARCHAR(255) DEFAULT NULL,
         `timestamp` DATETIME DEFAULT NULL,
         `time_served` DATETIME DEFAULT NULL,
-        `created_at` DATETIME DEFAULT NULL,
-        `updated_at` DATETIME DEFAULT NULL
+        `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
     );        
 EOT;
         $connection->exec($sql);

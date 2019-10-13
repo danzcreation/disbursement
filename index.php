@@ -3,7 +3,7 @@
 
     function main_menu() {
         echo "---------------------\n";
-        echo "1 - Get Disbursion\n";
+        echo "1 - Show Disbursion\n";
         echo "2 - Submit Disbursion\n";
         echo "0 - Quit\n\n";
         echo "Enter your choice: ";
@@ -58,7 +58,7 @@
     }
 
 
-    echo "[Disbursion System]\n";
+    echo "[Disbursion Service]\n";
     do {
         // Print the menu on console
         main_menu();
